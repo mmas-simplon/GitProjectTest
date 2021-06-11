@@ -12,6 +12,8 @@ struct ContentView: View {
         VStack {
             Text("Salut Mickael")
             Image(systemName: "circle.fill")
+                .padding()
+            Text("Salut Jean")
         }
     }
 }
